@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="406.0" prefWidth="321.0" style="-fx-background-color: #e8c9ea;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <TabPane prefHeight="406.0" prefWidth="321.0" tabClosingPolicy="UNAVAILABLE">
+        <tabs>
+          <Tab fx:id="loginTab" text="LOGIN">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="147.0" fitWidth="286.0" layoutX="14.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/clash-royale-png-46160.png" />
+                           </image>
+                        </ImageView>
+                        <TextField fx:id="usernameFieldLogin" layoutX="61.0" layoutY="217.0" prefHeight="25.0" prefWidth="200.0" promptText="Username" style="-fx-background-color: #ffffff;" />
+                        <PasswordField fx:id="passwordFieldLogin" layoutX="61.0" layoutY="254.0" prefHeight="25.0" prefWidth="200.0" promptText="Password" style="-fx-background-color: #ffffff;" />
+                        <Button layoutX="125.0" layoutY="297.0" mnemonicParsing="false" onAction="#login" prefWidth="61.6" style="-fx-background-color: #944d9e;" text="LOGIN" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+          <Tab fx:id="signUpTab" text="SIGN UP">
+            <content>
+              <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="180.0" prefWidth="200.0">
+                     <children>
+                        <ImageView fitHeight="147.0" fitWidth="286.0" layoutX="14.0" layoutY="26.0" pickOnBounds="true" preserveRatio="true">
+                           <image>
+                              <Image url="@../img/clash-royale-png-46160.png" />
+                           </image>
+                        </ImageView>
+                        <TextField fx:id="usernameFieldSignUp" layoutX="61.0" layoutY="180.0" prefHeight="25.0" prefWidth="200.0" promptText="Username" style="-fx-background-color: #ffffff;" />
+                        <PasswordField fx:id="passwordFieldSignUp" layoutX="61.0" layoutY="217.0" prefHeight="25.0" prefWidth="200.0" promptText="New password" style="-fx-background-color: #ffffff;" />
+                        <PasswordField fx:id="confirmPasswordFieldSignUp" layoutX="61.0" layoutY="254.0" prefHeight="25.0" prefWidth="200.0" promptText="Confirm password" style="-fx-background-color: #ffffff;" />
+                        <Button layoutX="125.0" layoutY="297.0" mnemonicParsing="false" onAction="#signUp" style="-fx-background-color: #944d9e;" text="SIGN UP" />
+                     </children>
+                  </AnchorPane>
+            </content>
+          </Tab>
+        </tabs>
+      </TabPane>
+   </children>
+</Pane>
