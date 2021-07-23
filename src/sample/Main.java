@@ -42,8 +42,18 @@ public class Main extends Application {
         trainingCampController.setStage(stage);
         stage.show();
     }
+    public void battleDeck() throws IOException {
+        FXMLLoader fxmlLoader = new FXMLLoader(getClass().getResource("battleDeck.fxml"));
+        BattleDeckController battleDeckController = new BattleDeckController();
+        fxmlLoader.setController(battleDeckController);
+        Parent root = fxmlLoader.load();
+        Stage stage = new Stage();
+        stage.setTitle("Battle Deck");
+        stage.setScene(new Scene(root , 390 , 592));
+        battleDeckController.setStage(stage);
+        stage.show();
+    }
     public static void main(String[] args) throws InterruptedException {
-        Game game = new Game();
         launch(args);
     }
 }

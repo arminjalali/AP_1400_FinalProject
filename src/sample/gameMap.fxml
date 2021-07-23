@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="691.0" prefWidth="391.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fitHeight="691.0" fitWidth="391.0">
+         <image>
+            <Image url="@../img/grassOfMap.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="315.0" layoutX="38.0" layoutY="307.5">
+         <image>
+            <Image url="@../img/riverOfMap.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="12.0" fitWidth="315.0" layoutX="38.0" layoutY="601.0">
+         <image>
+            <Image url="@../img/fenceOfMap.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="12.0" fitWidth="315.0" layoutX="38.0" layoutY="30.0">
+         <image>
+            <Image url="@../img/fenceOfMap.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="560.0" fitWidth="12.0" layoutX="26.0" layoutY="41.0">
+         <image>
+            <Image url="@../img/fenceOfMap.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="560.0" fitWidth="12.0" layoutX="323.0" layoutY="41.0">
+         <image>
+            <Image url="@../img/fenceOfMap.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="72.0" fitWidth="286.0" layoutX="105.0" layoutY="619.0">
+         <image>
+            <Image url="@../img/backgroundOfCards.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="27.0" fitWidth="50.0" layoutX="340.0" layoutY="1.0">
+         <image>
+            <Image url="@../img/remainingTimeBackground.png" />
+         </image>
+      </ImageView>
+      <Text fx:id="timerText" fill="#e5e3e3" layoutX="355.0" layoutY="19.0" strokeType="OUTSIDE" strokeWidth="0.0" wrappingWidth="27.199951171875" />
+      <ImageView fitHeight="66.0" fitWidth="50.0" layoutX="176.5" layoutY="42.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/kingTower1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="35.0" layoutX="274.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/kingTower1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="35.0" layoutX="79.0" layoutY="101.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/kingTower1.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="50.0" layoutX="176.5" layoutY="527.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/kingTower2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="35.0" layoutX="79.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/kingTower2.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="66.0" fitWidth="35.0" layoutX="274.0" layoutY="468.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../img/kingTower2.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="buttonCard1" layoutX="323.0" layoutY="619.0" mnemonicParsing="false" opacity="0.0" prefHeight="79.0" prefWidth="72.0" />
+      <ImageView fx:id="card1" fitHeight="79.0" fitWidth="72.0" layoutX="323.0" layoutY="619.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="buttonCard2" layoutX="263.0" layoutY="619.0" mnemonicParsing="false" opacity="0.0" prefHeight="79.0" prefWidth="72.0" />
+      <ImageView fx:id="card2" fitHeight="79.0" fitWidth="72.0" layoutX="263.0" layoutY="619.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="buttonCard3" layoutX="203.0" layoutY="619.0" mnemonicParsing="false" opacity="0.0" prefHeight="79.0" prefWidth="72.0" />
+      <ImageView fx:id="card3" fitHeight="79.0" fitWidth="72.0" layoutX="203.0" layoutY="619.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="buttonCard4" layoutX="143.0" layoutY="619.0" mnemonicParsing="false" opacity="0.0" prefHeight="79.0" prefWidth="72.0" />
+      <ImageView fx:id="card4" fitHeight="79.0" fitWidth="72.0" layoutX="143.0" layoutY="619.0" pickOnBounds="true" preserveRatio="true" />
+      <Label fx:id="elixirCounter" layoutX="122.0" layoutY="639.0" prefHeight="33.0" prefWidth="21.0" textAlignment="RIGHT">
+         <font>
+            <Font size="28.0" />
+         </font>
+      </Label>
+   </children>
+</Pane>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="592.0" prefWidth="390.0" style="-fx-background-color: #de9aea;" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <ImageView fx:id="archerCard" fitHeight="104.0" fitWidth="82.0" layoutY="22.0" onMouseClicked="#chooseCard">
+         <image>
+            <Image url="@../img/archers.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="arrowsCard" fitHeight="104.0" fitWidth="82.0" layoutX="75.0" layoutY="22.0" onMouseClicked="#chooseCard">
+         <image>
+            <Image url="@../img/arrows.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="babyDragonCard" fitHeight="104.0" fitWidth="82.0" layoutX="154.0" layoutY="22.0" onMouseClicked="#chooseCard">
+         <image>
+            <Image url="@../img/baby_dragon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="barbarianCard" fitHeight="104.0" fitWidth="82.0" layoutX="232.0" layoutY="22.0" onMouseClicked="#chooseCard">
+         <image>
+            <Image url="@../img/barbarians.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="cannonCard" fitHeight="104.0" fitWidth="82.0" layoutX="307.0" layoutY="22.0" onMouseClicked="#chooseCard">
+         <image>
+            <Image url="@../img/cannon.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="infernoTowerCard" fitHeight="104.0" fitWidth="82.0" layoutY="119.0" onMouseClicked="#chooseCard">
+         <image>
+            <Image url="@../img/inferno_tower.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="GiantCard" fitHeight="104.0" fitWidth="82.0" layoutX="81.0" layoutY="119.0" onMouseClicked="#chooseCard">
+         <image>
+            <Image url="@../img/giant.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="fireballCard" fitHeight="104.0" fitWidth="82.0" layoutX="154.0" layoutY="119.0" onMouseClicked="#chooseCard">
+         <image>
+            <Image url="@../img/fireball.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="wizardCard" fitHeight="104.0" fitWidth="82.0" layoutX="232.0" layoutY="119.0" onMouseClicked="#chooseCard">
+         <image>
+            <Image url="@../img/wizard.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="valkyrieCard" fitHeight="104.0" fitWidth="82.0" layoutX="307.0" layoutY="119.0" onMouseClicked="#chooseCard">
+         <image>
+            <Image url="@../img/valkyrie.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="rageSpellCard" fitHeight="104.0" fitWidth="82.0" layoutX="122.0" layoutY="223.0" onMouseClicked="#chooseCard">
+         <image>
+            <Image url="@../img/rage.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="miniPEKKACard" fitHeight="104.0" fitWidth="82.0" layoutX="201.0" layoutY="223.0" onMouseClicked="#chooseCard">
+         <image>
+            <Image url="@../img/mini_PEKKA.png" />
+         </image>
+      </ImageView>
+      <Separator layoutX="94.0" layoutY="338.0" prefWidth="200.0" />
+      <Text layoutX="183.0" layoutY="364.0" strokeType="OUTSIDE" strokeWidth="0.0" text="yours" />
+      <ImageView fx:id="myCard1" fitHeight="104.0" fitWidth="82.0" layoutX="34.0" layoutY="379.0">
+         <image>
+            <Image url="@../img/menuPhoto.png" />
+         </image></ImageView>
+      <ImageView fx:id="myCard2" fitHeight="104.0" fitWidth="82.0" layoutX="113.0" layoutY="379.0">
+         <image>
+            <Image url="@../img/menuPhoto.png" />
+         </image></ImageView>
+      <ImageView fx:id="myCard3" fitHeight="104.0" fitWidth="82.0" layoutX="195.0" layoutY="379.0">
+         <image>
+            <Image url="@../img/menuPhoto.png" />
+         </image></ImageView>
+      <ImageView fx:id="myCard4" fitHeight="104.0" fitWidth="82.0" layoutX="273.0" layoutY="379.0">
+         <image>
+            <Image url="@../img/menuPhoto.png" />
+         </image></ImageView>
+      <ImageView fx:id="myCard5" fitHeight="104.0" fitWidth="82.0" layoutX="41.0" layoutY="483.0">
+         <image>
+            <Image url="@../img/menuPhoto.png" />
+         </image></ImageView>
+      <ImageView fx:id="myCard6" fitHeight="104.0" fitWidth="82.0" layoutX="116.0" layoutY="483.0">
+         <image>
+            <Image url="@../img/menuPhoto.png" />
+         </image></ImageView>
+      <ImageView fx:id="myCard7" fitHeight="104.0" fitWidth="82.0" layoutX="201.0" layoutY="483.0">
+         <image>
+            <Image url="@../img/menuPhoto.png" />
+         </image></ImageView>
+      <ImageView fx:id="myCard8" fitHeight="104.0" fitWidth="82.0" layoutX="283.0" layoutY="483.0">
+         <image>
+            <Image url="@../img/menuPhoto.png" />
+         </image></ImageView>
+      <Button layoutX="349.0" layoutY="325.0" mnemonicParsing="false" onAction="#finishSelect" text="Ok" />
+   </children>
+</AnchorPane>

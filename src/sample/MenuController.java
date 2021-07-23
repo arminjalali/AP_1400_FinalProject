@@ -21,8 +21,14 @@ public class MenuController {
     @FXML
     public void trainingCamp() throws IOException {
         stage.close();
-        Stage stage = new Stage();
         Main main = new Main();
         main.trainingCamp();
+    }
+
+    @FXML
+    public void battleDeck() throws IOException {
+        stage.close();
+        Main main = new Main();
+        main.battleDeck();
     }
 }
